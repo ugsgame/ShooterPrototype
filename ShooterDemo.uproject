@@ -1,0 +1,28 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "4.22",
+  "Category": "",
+  "Description": "",
+  "Modules": [
+    {
+      "Name": "ShooterDemo",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "ShooterGame",
+        "AIModule",
+        "Engine"
+      ]
+    },
+    {
+      "Name": "ShooterGame",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "ShooterGameLoadingScreen",
+      "Type": "Runtime",
+      "LoadingPhase": "PreLoadingScreen"
+    }
+  ]
+}
